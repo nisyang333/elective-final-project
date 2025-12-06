@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us - Gardener's Grove</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#2A4B3A", // Deep Forest Green
+              "secondary": "#A3B899", // Soft Sage Green
+              "accent": "#D87C5B", // Terracotta
+              "background-light": "#F7F5F2", // Off-White
+              "background-dark": "#1a1a1a", // A dark background for contrast
+              "text-light": "#333333", // Charcoal Gray
+              "text-dark": "#F7F5F2",
+            },
+            fontFamily: {
+              "display": ["Lexend", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+    </style>
+</head>
+<body class="font-display bg-background-light text-text-light dark:bg-background-dark dark:text-text-dark">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-secondary/20 dark:border-secondary/10">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-4 text-primary dark:text-secondary">
+<span class="material-symbols-outlined text-3xl">spa</span>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Gardener's Grove</h2>
+</div>
+<nav class="hidden md:flex flex-1 justify-center gap-9">
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-secondary transition-colors" href="#">Home</a>
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-secondary transition-colors" href="#">My Garden</a>
+
+<a class="text-sm font-medium leading-normal text-primary dark:text-secondary" href="#">About Us</a>
+</nav>
+
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded h-10 px-4 bg-secondary/20 text-text-light dark:text-text-dark text-sm font-bold leading-normal tracking-[0.015em] hover:bg-secondary/30 transition-colors">
+<span class="truncate">Log In</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<div class="flex flex-col max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+<section class="w-full py-20 md:py-32">
+<div class="relative @container">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 rounded-xl items-center justify-center p-8 text-center" data-alt="Sunlight filtering through lush green leaves in a thriving garden." style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCiZkNl3ZfGOUmBbB13eiFsqI1M31RMB2vBAXXZg6bbSmDAsYBvO0bhjjmufXaakB1soVNhs063paa-xhDMfbEEH6-8YBcFpitJb7TCAcTW8cxDNpVcZhfGJwChLGLfVyh4xeceZOdhch1YGCLNkRDxGS4QUURX0jrDzYnGtYkmvG-FYPif4Zth76vQNPsjdBVnJF8-L0DIQbjZWJHWiTcUDdKiaI63lYF1CLSQd9E1KFR8xr5QmIUosL1EFeoU0xqR5C3B9_i09qxh");'>
+<div class="flex flex-col gap-4">
+<h1 class="text-background-light text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-6xl">Growing Health, Together.</h1>
+<h2 class="text-background-light text-base font-normal leading-normal @[480px]:text-lg max-w-2xl mx-auto">Connecting the simple joy of gardening with personal well-being for a healthier, happier you.</h2>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-accent text-background-light text-base font-bold leading-normal tracking-[0.015em] hover:bg-opacity-90 transition-opacity">
+<span class="truncate">Start Your Garden</span>
+</button>
+</div>
+</div>
+</section>
+<section class="flex flex-col gap-10 px-4 py-16 @container">
+<div class="flex flex-col gap-4 max-w-3xl">
+<h2 class="text-primary dark:text-secondary text-sm font-bold uppercase tracking-widest">Our Roots</h2>
+<h3 class="text-text-light dark:text-text-dark text-3xl font-bold leading-tight tracking-[-0.015em] @[480px]:text-4xl @[480px]:font-black">Our Story</h3>
+<p class="text-text-light/80 dark:text-text-dark/80 text-base font-normal leading-relaxed">Born from a simple idea that nurturing a plant can also nurture the soul, our platform was created to bring the therapeutic benefits of gardening to everyone, everywhere. We saw a need to reconnect with nature in our busy lives and built a community dedicated to growing, sharing, and thriving.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="flex flex-1 gap-4 rounded-xl border border-secondary/20 dark:border-secondary/10 bg-background-light dark:bg-background-dark p-6 flex-col">
+<span class="material-symbols-outlined text-accent text-4xl">lightbulb</span>
+<div class="flex flex-col gap-1">
+<h4 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight">The 'Aha!' Moment</h4>
+<p class="text-text-light/70 dark:text-text-dark/70 text-sm font-normal leading-normal">Discovering the profound impact of a small pot of herbs on mental clarity during a stressful week.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-secondary/20 dark:border-secondary/10 bg-background-light dark:bg-background-dark p-6 flex-col">
+<span class="material-symbols-outlined text-accent text-4xl">groups</span>
+<div class="flex flex-col gap-1">
+<h4 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight">Building a Community</h4>
+<p class="text-text-light/70 dark:text-text-dark/70 text-sm font-normal leading-normal">Uniting individuals who share a passion for gardening and well-being, creating a space to grow together.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16">
+<h2 class="text-text-light dark:text-text-dark text-3xl font-bold leading-tight tracking-[-0.015em] px-4 pb-8 text-center">Meet the Team</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 p-4">
+<div class="flex flex-col gap-3 text-center pb-3">
+<div class="px-4">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full" data-alt="Portrait of Jane Doe, Founder &amp; CEO" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDS_IOYloUoRlMEUCr5Rc7Ctz1HZ67xVdFHra9nFl86l5XY314DorOdkKtw2Y8f4kCOH9cQiQo1jdXBGjhd8WiY8WsRBP71TDxjvEDkmfyUcGlLxiDtAbRWpT-y5s19cwKO5XPSTzhRmo_40xVip2dJ1SfaUOFag3cbMoRLn0U4m3055RKi5zAluYX5LW7ej2elxrNEb6P-_OQo8Y29jpmOMzoECHnmKLETWSQhhv5GKmvpesE8-Nf2fm0i4Mdguucga9eEh9UBQBE0");'></div>
+</div>
+<div>
+<p class="text-text-light dark:text-text-dark text-base font-medium leading-normal">Jane Doe</p>
+<p class="text-primary dark:text-secondary text-sm font-normal leading-normal">Founder &amp; CEO</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 text-center pb-3">
+<div class="px-4">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full" data-alt="Portrait of John Smith, Head of Horticulture" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCMg0JgVh7v9aExB_qs7kFU93qr5jDwASuKv77OoMypeKss2JIFCp3ikU7XQLBLOZG18XA-CzfU_nAPgykRmRBYV2dlfkR4t-wU90LoBtyT-vtBWmPGZoIK0aO23fDgJQQuEaGFlqQqx0lrGkVEdHg17_KUiHOjIhMqUwncRMHvqsXowCPRQWIUotmt9Y2uAyYBnaijnF7Wsh2NG_GQLt7DTsSKz7ciHXx6M9jCYSbZESjDw1-4gUIYGvB--_MZT1sS9eDFDmlESi_a");'></div>
+</div>
+<div>
+<p class="text-text-light dark:text-text-dark text-base font-medium leading-normal">John Smith</p>
+<p class="text-primary dark:text-secondary text-sm font-normal leading-normal">Head of Horticulture</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 text-center pb-3">
+<div class="px-4">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full" data-alt="Portrait of Emily White, Lead Developer" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDF1-v78KXLEgnsLHPCSXtlmSxJ_2mmFoLSd48kh0eZU-EqeL2cAl-O8iXA4nNdOPnW_X9_T0GuZY-4AUh0v-jGnbCc8ujdnf1203LahLH2C9O7Qe6gS4uDse0zvsdyYGyaB7z1Jsw7QNPqvZs44fjB85D3IN9EJ0K3KtPH4O_IBn6Pon3sVOhL5H9jN7kpLLgAy1tshBGG8-wlWEx7ZxpKl-LDMcRvwEwH64bAr9OFSEz85Gugm_RSTZ7g7Md6mDDr8li4SJeeeNL4");'></div>
+</div>
+<div>
+<p class="text-text-light dark:text-text-dark text-base font-medium leading-normal">Emily White</p>
+<p class="text-primary dark:text-secondary text-sm font-normal leading-normal">Lead Developer</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 text-center pb-3">
+<div class="px-4">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full" data-alt="Portrait of David Green, Community Manager" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCMtpZL9I1kb9DuLpHi3Qht8z85WKEVWm7gDRze0p70s-bWxBD1INE_9SU8MdydZ-Cx3AzZ9bKgNUF3qZKr_9jPCSM7JTETtaWVyXYv1FKZQ0N4oY1bdBQmwFjlXhFCEST2ZaM490sEdQwznDJCNWoocYA_-GpV78KPiNH0oLkWLtf1gWbTEHQa0InlVL9PrGqEobWcxeonWITybTq6OXcN2SEYX9GhwHlDJyETMcCctRKyDtyMCDbzUUrCODvcp_1mtA90CIOhUWVH");'></div>
+</div>
+<div>
+<p class="text-text-light dark:text-text-dark text-base font-medium leading-normal">David Green</p>
+<p class="text-primary dark:text-secondary text-sm font-normal leading-normal">Community Manager</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16">
+<div class="bg-secondary/20 dark:bg-primary/10 rounded-xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
+<div class="flex-shrink-0">
+<img alt="SDG3 Good Health and Well-Being Logo" class="w-32 h-32 md:w-40 md:h-40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9J7Rz-iRPcg0Zxer2ktedcGy2wHOu85xTS_T6RTd58wqWk-DE4LgjmPWSn3GhKvbf1W5J5n6a8jpYnHUNgvxIYBO7lRcn-dHBU8wzfJxIJiTUew3NZ3k8TGlMsYhwYfgyOmgWzMyHb_1Yepm8-OU9eEQB-uh9rJgollQRjulJU0GADK1USvOr2Wp7wvNgw-WsolUsFi-ox8lIwBl1CycRnejynuKabRlNSq7oWLMnN8Js5ypZBvfAArX78t7Yf-cvrTp8-oqJrW7V"/>
+</div>
+<div class="flex flex-col gap-3">
+<h2 class="text-text-light dark:text-text-dark text-2xl font-bold tracking-tight">Our Commitment to SDG3: Good Health and Well-Being</h2>
+<p class="text-text-light/80 dark:text-text-dark/80 leading-relaxed">We believe that a connection to nature is fundamental to human health. Our platform is designed to make gardening accessible, promoting mental clarity, physical activity, and nutritious food. By empowering individuals to grow, we contribute to a global movement for better health and well-being for all.</p>
+<a class="text-accent font-bold hover:underline" href="#">Learn More About Our Initiatives</a>
+</div>
+</div>
+</section>
+<section class="py-16">
+<div class="text-center max-w-3xl mx-auto mb-12">
+<h2 class="text-primary dark:text-secondary text-sm font-bold uppercase tracking-widest">Our Global Impact</h2>
+<h3 class="text-text-light dark:text-text-dark text-3xl font-bold leading-tight tracking-[-0.015em] mt-2">Annual Health Report</h3>
+<p class="text-text-light/80 dark:text-text-dark/80 text-base font-normal leading-relaxed mt-4">Here’s a look at the collective positive impact our community has made over the past year. Together, we're not just growing plants—we're cultivating healthier lives.</p>
+</div>
+
+</div>
+</section>
+<section class="py-20 text-center">
+<div class="bg-primary dark:bg-primary/90 text-background-light rounded-xl p-10 md:p-16">
+
+
+</div>
+</section>
+</div>
+</main>
+<footer class="bg-background-light dark:bg-background-dark border-t border-secondary/20 dark:border-secondary/10">
+<div class="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8 text-center text-text-light/60 dark:text-text-dark/60">
+<div class="flex justify-center gap-6 mb-4">
+
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
