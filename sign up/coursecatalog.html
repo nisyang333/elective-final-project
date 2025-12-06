@@ -1,0 +1,109 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stitch Design</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900&display=swap"
+    />
+    <link rel="icon" href="data:image/x-icon;base64," />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans bg-white">
+    <div class="relative flex min-h-screen flex-col bg-white group/design-root overflow-x-hidden">
+      <header class="flex items-center justify-between border-b border-solid border-b-[#f0f4f0] p-6 md:px-10 py-3">
+        <div class="flex items-center gap-4 text-[#111811]">
+          <svg
+            class="w-8 h-8"
+            viewBox="0 0 48 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+          <h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Verdant</h2>
+        </div>
+        <div class="hidden md:flex items-center gap-8">
+          <a class="text-[#111811] text-sm font-medium" href="#">My Garden</a>
+          <a class="text-[#111811] text-sm font-medium" href="#">Learn</a>
+          <a class="text-[#111811] text-sm font-medium" href="#">Shop</a>
+        </div>
+        <button
+          class="flex items-center justify-center rounded-xl h-10 bg-[#f0f4f0] text-[#111811] gap-2 text-sm font-bold px-2.5"
+        >
+          <svg
+            class="w-5 h-5"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 256 256"
+          >
+            <path
+              d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+            ></path>
+          </svg>
+        </button>
+        <div
+          class="hidden md:block w-10 h-10 rounded-full bg-center bg-no-repeat bg-cover"
+          style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD86F6rj82uUewkFsqhUso9q14-AIv5u-kBqDuY29SICjnfFeEQEII323V_gj1Bb0fl2pK_zN-UMJZbNd3Nycfhja5fqEdqVPE3AhPQWeMAU0djMXJXk_KEeqAyX53fJfxGsHXQ2Un_Uekr0MkY0ZeUu6z7gqI2E4HBbgVrPI7yD5KotxLSJ6pvnZSeQEcq6cxi7jiU5nGZj_qq7Vfe77aVKO_Np9gmCePo-VjOL5uv7dRTYAnwcblQW1iZimFuNNNX7q-W43H5bAVj');"
+        ></div>
+      </header>
+
+      <div class="px-6 py-5 md:px-40 flex flex-1 justify-center">
+        <div class="layout-content-container max-w-[960px] flex-1">
+          <div class="flex flex-wrap justify-between gap-3 p-4">
+            <p class="text-[#111811] text-2xl md:text-3xl font-bold">Find the right place to grow</p>
+          </div>
+
+          <div class="px-4 py-3">
+            <label class="flex flex-col min-w-40 h-12 w-full">
+              <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                <div
+                  class="text-[#618961] flex border-none bg-[#f0f4f0] items-center justify-center pl-4 rounded-l-xl"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  type="text"
+                  placeholder="Search for a place"
+                  class="w-full h-full rounded-xl bg-[#f0f4f0] text-[#111811] px-4 focus:outline-none"
+                />
+              </div>
+            </label>
+          </div>
+
+          <h2 class="text-[#111811] text-2xl font-bold pb-3 pt-5">Popular places</h2>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-4">
+            <!-- Popular Places -->
+            <div class="flex flex-col gap-3">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBp3MZQ8Zfk_GGVl8MMUg2grZWDcqh5XDP3rEjZLeemyunuekdaaksgWcIHnCDd7MG0vAOn7U1uVTYr3zD6z7qPQhNHCaY4kNm-uXb5WwZCcySUpX3mnDE2bC1p_77-QQgvskovmQVOawx-vO8tROc0T0mADWKUp5cm-bIZLUgIOD3C6KXkPFDqfhTGB-R-yckF4KFQHL9yTnSC24bLmkVg3DJm8XUAs_57238CezE2VX7KG3d2WQfIFDmVoxdIE2aaUPQfQYl9vE6C');"
+              ></div>
+              <div>
+                <p class="text-[#111811] text-base font-medium">Balcony Garden</p>
+                <p class="text-[#618961] text-sm">Learn how to grow on your balcony</p>
+              </div>
+            </div>
+
+            <!-- Add similar structure for other places -->
+          </div>
+
+          <h2 class="text-[#111811] text-2xl font-bold pb-3 pt-5">All places</h2>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-4">
